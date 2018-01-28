@@ -11,30 +11,29 @@
 <body>
   <header>  <!--Start of the Header-->
     <ul class=logo>
-      <li>Verti</li>
-      <li>A responsive site template by Srikar!</li>
+      <li class="main-logo">Verti</li>
+      <li class="logo-desc">A responsive site template by Srikar!</li>
     </ul>
-    <ul>
-      <li>Welcome</li>
-      <li>Left sidebar</li>
-      <li>Right sidebar</li>
-      <li>No sidebar</li>
+    <ul class="nav">
+      <li class="nactive"><a href="#">No sidebar</a></li>
+      <li class="nactive"><a href="#">Right sidebar</a></li>
+      <li class="nactive"><a href="#">Left sidebar</a></li>
+      <li class="active"><a href="#">Welcome</a></li>
     </ul>
-  </header>  <!End of the Header-->
+  </header>  <!--End of the Header-->
 
   <div class="wrapper"> <!--Start of the wrapper-->
-    <div class="intro three-fourth">
-      <p class="intro_head">Hi. This is Verti</p>
-      <p class="intro_desc">It's a free responsive HTML5 site template by Srikar!</p>
+    <div class="wrap intro three-fourth">
+      <h2>Hi. This is Verti</h2>
+      <p class="intro_desc">It's a free responsive HTML5 <br>    site template by Srikar!</p>
     </div>
-    <div class="intro_button one-fourth">
+    <div class="wrap intro_button one-fourth">
       <ul>
-        <li><a href="#">Ok Let's go<i class="fa fa-play"></i></a></li>
-        <li><a href="#">More info<i class="fa fa-info-circle"></i></a></li>
+        <li class="ok"><a href="#">Ok let's go <i class="fa fa-play"></i></a></li>
+        <li class="more"><a href="#">More info     <i class="fa fa-info-circle"></i></a></li>
       </ul>
     </div>
   </div> <!--End of the wrapper-->
-
   <div class="grid">  <!--Start of the Grid-->
     <div class="one-third"> <!--first cell-->
       <img class="grass" src="pic01.jpg" alt="Grass">
